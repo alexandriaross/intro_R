@@ -1,0 +1,15 @@
+Package: obiwanaddone
+Type: Package
+Title: Add a One to Numbers
+Version: 0.1.0
+Author: person("Alex", "Ross", email = "aross4@usf.edu", 
+role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: If anyone has ever asked "Aren't you a little short
+    to be a stormtrooper?" then this is the package that will 
+    increase your height by adding one. Starwars dataset included
+    from dplyr included in package.
+Depends: install.package("dplyr", dependencies = TRUE)
+License: CC0
+Encoding: UTF-8
+LazyData: true
