@@ -1,0 +1,35 @@
+---
+title: "Module_12"
+author: "Alex Ross"
+date: "4/13/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Alex's R Markdown for Module 12
+
+#### Testing out the difference in header sizes
+
+When I'm not creating R markdown documents, I'm refreshing the following page:
+[link]https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html
+
+> Testing out embeding an R code chunk like this using a block quote:
+
+
+```{r}
+# R Program to create a vector of numbers from 1 to 29
+y <- c(1:29) 
+print(y)
+
+# R Program to find the multiplicationtable for 7
+table <-function(n){
+  for(i in 1:10){
+    print(paste(n,'*',i,'=',i*n))
+  }
+}
+table(7)
+```
+
